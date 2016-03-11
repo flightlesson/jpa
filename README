@@ -1,0 +1,9 @@
+JPA examples, primarily for comparing eclipslink, hibernate, and ???
+
+The goals are:
+ - Create a "jar" standalone application rather than a "war" web application.
+ - Be able to use PostgreSQL in production and Derby in unit tests.
+ - Be able to create database tables (i.e., in unit tests).
+ - Be able to use existing database tables (i.e., in production).
+ - Minimal non-standard database constructs (i.e., PostgreSQL likes to use a difference sequence for each table instead of one sequence for everything).
+ - Minimal vendor-specific extensions.
