@@ -1,4 +1,4 @@
-JPA examples, primarily for comparing eclipslink, hibernate, and ???
+JPA examples, primarily for comparing eclipselink, hibernate, and ???
 
 The goals are:
  - Create a "jar" standalone application rather than a "war" web application.
@@ -7,3 +7,19 @@ The goals are:
  - Be able to use existing database tables (i.e., in production).
  - Minimal non-standard database constructs (i.e., PostgreSQL likes to use a difference sequence for each table instead of one sequence for everything).
  - Minimal vendor-specific extensions.
+
+Links:
+  Introduction to ORM and JPA:
+    http://www.javaworld.com/javaworld/jw-01-2008/jw-01-jpa1.html
+
+  JPA javadoc:
+    https://docs.oracle.com/javaee/7/api/index.html?javax/persistence/package-summary.html
+  
+  persistence.xml schema:
+    http://www.oracle.com/webfolder/technetwork/jsc/xml/ns/persistence/index.html
+
+  ORM providers:
+    eclipselink
+      http://www.eclipse.org/eclipselink/documentation/2.4/concepts/blocks001.htm
+    hibernate
+  
